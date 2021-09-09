@@ -3,12 +3,17 @@ body {
 }
 
 .container {
-   
+    border: 1px solid;
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    
 }
 
 header {
     position: absolute;
-    top: 1%;
+    top: 0%;
     width: 100%;
     
 }
@@ -16,7 +21,7 @@ nav {
     display: flex;
     justify-content: flex-end;
    
-    border: 1px solid;
+
 
 }   
 
@@ -40,4 +45,61 @@ li #icone-nav-apps {
 }
 li a:hover {
     text-decoration: underline;
+}
+
+/**
+    This is the layout of main-content
+*/
+
+#main-content{
+
+    position: absolute;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 45%;
+    margin-left: 27.5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#google-logo {
+    transform: scale(0.7);
+  
+}
+
+#google-logo {
+   
+    border-radius: 10px;
+}
+
+#search-bar {
+    width: 100%;
+}
+#search-bar input {
+    border: 1px solid;
+    border-radius: 20px;
+    width: inherit;
+    height: 45px;
+}
+
+#google-expression-btn-transparency {
+    display: flex;
+    border: 1px solid;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.btn {
+    transform: scale(0.9);
+}
+/*
+    this is the layout of footer
+*/
+
+footer {
+    border: 1px solid;
+   
 }
